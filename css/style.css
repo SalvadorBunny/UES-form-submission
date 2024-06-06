@@ -1,0 +1,31 @@
+.background{
+    background-color: gray;
+    background-image: url("../imagenes/main\ background.png");
+}
+
+@font-face{
+    font-family: 'Bombadier'; /*a name to be used later*/
+    src: url('../imagenes/Bombardier-Regular.ttf'); /*URL to font*/
+}
+
+body{
+    font-family: Bombadier;
+}
+
+h2{
+    font-size: 300%;
+}
+.main-container{
+    background-color: rgb(189, 189, 189);
+    background-image: url(../imagenes/background.png);
+    border: 30px solid transparent;
+    border-image: url(../imagenes/border\ image.png) 30 round;
+}
+
+.light-text{
+    color: white;
+}
+
+.commando{
+    background-image: url(../imagenes/end.png);
+}
